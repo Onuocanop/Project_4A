@@ -1,9 +1,10 @@
-package com.example.project_4a_kadioglu
+package com.example.project_4a_kadioglu.presentation.main
 
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.Observer
+import com.example.project_4a_kadioglu.R
 import org.koin.android.ext.android.inject
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -15,11 +16,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         main_button.setOnClickListener {
-            mainViewModule.onClickedIncrement()
+            mainViewModule.onClickedIncrement("")
         }
 
         mainViewModule.counter.observe(this, Observer {
                 value -> main_text.text = value.toString()
         })
     }
+
+
 }
