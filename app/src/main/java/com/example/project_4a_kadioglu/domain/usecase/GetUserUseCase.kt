@@ -6,7 +6,7 @@ import com.example.project_4a_kadioglu.domain.entity.User
 class GetUserUseCase(
     private val userRepository: UserRepository
 ) {
-    fun invoke (email: String): User
+    fun invoke (email: String): User?
     {
         return userRepository.getUser(email)
     }
