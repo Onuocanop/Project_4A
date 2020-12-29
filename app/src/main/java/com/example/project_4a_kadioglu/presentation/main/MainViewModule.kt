@@ -18,14 +18,14 @@ class MainViewModule(
     val loginLiveData: MutableLiveData<LoginStatus> = MutableLiveData()
 
 
-    fun onClickedLogin(emailUser: String/*, password: String*/) {
+    fun onClickedLogin(emailUser: String, password: String) {
         viewModelScope.launch(Dispatchers.IO){
-        val user =    getUserUseCase.invoke(emailUser/*, password*/)
+        val user = getUserUseCase.invoke(emailUser, password)
       //      createUserUseCase.invoke(User("test"))
        //   val user =  getUserUseCase.invoke("test")
       val loginStatus = if(user != null)
        {
-           LoginStatus.LoginSuccess(user.email)
+           LoginStatus.LoginSuccess(user.email, user.password)
        }
         else{
           LoginStatus.LoginError
@@ -36,4 +36,25 @@ class MainViewModule(
             }
         }
     }
+
+
+    fun onClickCreateButton(emailUser: String, password: String) {
+        viewModelScope.launch(Dispatchers.IO){
+            val user = getUserUseCase.invoke(emailUser, password)
+            val loginStatus = if(user == null)
+            {
+                createUserUseCase.invoke(User(emailUser,password))
+                LoginStatus.CreateSuccess(emailUser,password)
+            }
+            else{
+                LoginStatus.CreateError
+            }
+            withContext(Dispatchers.Main)
+            {
+                loginLiveData.value = loginStatus
+            }
+        }
+    }
+
 }
+
