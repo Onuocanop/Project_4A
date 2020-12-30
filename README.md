@@ -24,9 +24,11 @@ And I made something not 100% finished but modifiable that it can give any Githu
 - Screens : 4 activities, 1 fragment
 <br />
 <br />
+
 ## What it looks like
 
 <br />
+
 ### This is the screen when we press the app icon
 
 
@@ -47,6 +49,7 @@ It shows us the login page
 it shows us a screen that we need to enter our credentials to create an account
 <br />
 <br />
+
 ### After we enter our credentials in our create segment we can see the following
 
 ![](Screenshot_10.png)
@@ -55,12 +58,14 @@ it shows us a screen that we need to enter our credentials to create an account
 It shows us the detail of the pokemon here it's name and it's picture
 <br />
 <br />
+
 ### This is what happens when we enter already taken or wrong credentials
 
 ![](Screenshot_9.png)
 
 <br />
 <br />
+
 ### And when we enter our credentials in the login screeen we open the database
 
 ![](Screenshot_12.png)
