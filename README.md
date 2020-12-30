@@ -57,3 +57,13 @@ It shows us the detail of the pokemon here it's name and it's picture
 
 ![](Screenshot_12.png)
 ![](Screenshot_13.png)
+
+
+## PS
+
+the pokemon database was made with the help of the videos of EDMT Dev
+link to the video the helped me:
+https://www.youtube.com/watch?v=WDKoFZNLEKg
+
+
+
