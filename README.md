@@ -15,7 +15,7 @@ And I made something clearly not 100% finished but modifiable that it can give a
 - We need to find a good API that we can follow 
 
 
-## instructions to respect
+## I  nstructions to respect
 
 - Clean Architecture & MVVM
 - REST
@@ -27,12 +27,17 @@ And I made something clearly not 100% finished but modifiable that it can give a
 
 ### This is the screen when we press the app icon
 
-https://prnt.sc/t3v8kx
+https://prnt.sc/wd5mma
+
 
 It shows us how a list full of pokemons
 
 ### This is when we press one of the elements
 
-https://prnt.sc/t3v8cr
+https://prnt.sc/wd5mzh
+
+https://prnt.sc/wd5mma
+
+https://prnt.sc/wd5mex
 
 It shows us the detail of the pokemon here it's name
