@@ -49,4 +49,10 @@ it shows us a screen that we need to enter our credentials to create an account
 
 It shows us the detail of the pokemon here it's name and it's picture
 
+### This is what happens when we enter already taken or wrong credentials
 
+![](Screenshot_9.png)
+
+### And when we enter our credentials in the login screeen we open the database
+
+![](Screenshot_13.png)
