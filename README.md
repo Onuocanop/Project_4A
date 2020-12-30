@@ -42,8 +42,11 @@ It shows us the login page
 
 it shows us a screen that we need to enter our credentials to create an account
 
-### After we enter our credentials in our login segment we can see the following
+### After we enter our credentials in our create segment we can see the following
 
-https://prnt.sc/wd5mex
+![](Screenshot_10.png)
+![](Screenshot_11.png)
 
 It shows us the detail of the pokemon here it's name and it's picture
+
+
