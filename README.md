@@ -33,7 +33,7 @@ It shows us a login page (here with a name and a password because I entered it)
 
 ### This is when we press the create button
 
-https://prnt.sc/wd5mzh
+<img = "Screenshot_7.png">
 
 it shows us a screen that we need to enter our credentials to create an account
 
