@@ -27,7 +27,6 @@ And I made something not 100% finished but modifiable that it can give any Githu
 - Displaying 1st gen Pokemon (151 in total)
 
 <br />
-<br />
 
 ## What it looks like
 
@@ -35,50 +34,49 @@ And I made something not 100% finished but modifiable that it can give any Githu
 
 ### This is the screen when we press the app icon
 
-
 ![](Screenshot_7.png)
-
+<br />
 It shows us the login page 
-
+<br />
 ### This is the screen when we enter a wrong login
 
 ![](Screenshot_8.png)
 <br />
-<br />
+
 
 ### This is when we press the create button
 
 ![](Screenshot_5.png)
-
+<br />
 it shows us a screen that we need to enter our credentials to create an account
 <br />
-<br />
+
 
 ### After we enter our credentials in our create segment we can see the following
 
 ![](Screenshot_10.png)
 ![](Screenshot_11.png)
-
+<br />
 It shows us the detail of the pokemon here it's name and it's picture
 <br />
-<br />
+
 
 ### This is what happens when we enter already taken or wrong credentials
 
 ![](Screenshot_9.png)
 
 <br />
-<br />
+
 
 ### And when we enter our credentials in the login screeen we open the database
 
 ![](Screenshot_12.png)
-![](Screenshot_13.png)
+![](Images/Screenshot_13.png)
 <br />
-<br />
+
 
 ## PS
-
+<br />
 the pokemon database was made with the help of the videos of EDMT Dev.<br />
 Link to the video the helped me :<br />
 https://www.youtube.com/watch?v=WDKoFZNLEKg
