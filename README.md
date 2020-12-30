@@ -38,7 +38,7 @@ It shows us the login page
 
 ### This is when we press the create button
 
-![](Screenshot_7.png)
+![](Screenshot_5.png)
 
 it shows us a screen that we need to enter our credentials to create an account
 
