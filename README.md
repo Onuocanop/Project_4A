@@ -18,10 +18,14 @@ And I made something not 100% finished but modifiable that it can give any Githu
 ## Instructions to respect
 
 - Clean Architecture & MVVM
-- REST
-- Displaying an element of the list
+- Call to API REST
+- Displaying an element of the list of images and text
 - RecycleView Display
 - Screens : 4 activities, 1 fragment
+- User database which has username and password as elements
+- Cache stocking
+- Displaying 1st gen Pokemon (151 in total)
+
 <br />
 <br />
 
