@@ -32,8 +32,8 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 LoginStatus.LoginError -> MaterialAlertDialogBuilder(this)
-                        .setTitle("Error")
-                        .setMessage("Oopsies")
+                        .setTitle("Oopsie")
+                        .setMessage("You have entered a wrong username or password")
                         .setPositiveButton("OK"){  dialog, which ->  dialog.dismiss()
                         }
                         .show()

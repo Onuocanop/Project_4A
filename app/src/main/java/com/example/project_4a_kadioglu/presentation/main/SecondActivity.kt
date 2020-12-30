@@ -37,14 +37,18 @@ class SecondActivity : AppCompatActivity() {
 
             secondActivity.loginLiveData.observe(this, Observer {
                 when (it) {
-                    is LoginStatus.CreateSuccess -> {
-                        // TODO() NAVIGATE
-                    }
-                    LoginStatus.CreateError -> MaterialAlertDialogBuilder(this)
-                        .setTitle("Error")
-                        .setMessage("Oopsies")
+                    is LoginStatus.CreateSuccess -> MaterialAlertDialogBuilder(this)
+                        .setTitle("Successful")
+                        .setMessage("Your account has been created")
                         .setPositiveButton("OK") { dialog, which ->
                             dialog.dismiss()
+                        }
+                        .show()
+
+                    LoginStatus.CreateError -> MaterialAlertDialogBuilder(this)
+                        .setTitle("Oopsie Doopsie")
+                        .setMessage("This username has already been taken or you have entered a non valid username/password")
+                        .setPositiveButton("OK"){  dialog, which ->  dialog.dismiss()
                         }
                         .show()
                 }

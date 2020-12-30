@@ -7,6 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.example.project_4a_kadioglu.domain.entity.User
 import com.example.project_4a_kadioglu.domain.usecase.CreateUserUseCase
 import com.example.project_4a_kadioglu.domain.usecase.GetUserUseCase
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -39,7 +40,7 @@ class MainViewModule(
     fun onClickCreateButton(emailUser: String, password: String) {
         viewModelScope.launch(Dispatchers.IO){
             val user = getUserUseCase.invoke(emailUser, password)
-            val loginStatus = if(user == null)
+            val loginStatus = if(user == null && emailUser != "" && password != "")
             {
                 createUserUseCase.invoke(User(emailUser,password))
                 LoginStatus.CreateSuccess(emailUser,password)
