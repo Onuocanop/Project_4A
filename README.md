@@ -7,7 +7,7 @@ This is a project given to us by our Mobile programming teacher.
 We needed to finish this project in 2-3 months after it was given.
 In this project we use CLean Architecture and MVVM pattern in Android Studio
 Also we have a database in which we can crate or get our user and password 
-And I made something clearly not 100% finished but modifiable that it can give any Github users an idea on how to continue my project
+And I made something not 100% finished but modifiable that it can give any Github users an idea on how to continue my project
 
 ## What we need for this project
 
