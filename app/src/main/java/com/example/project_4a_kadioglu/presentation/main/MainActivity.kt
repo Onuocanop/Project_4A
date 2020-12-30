@@ -27,7 +27,8 @@ class MainActivity : AppCompatActivity() {
             when(it)
             {
                 is LoginStatus.LoginSuccess -> {
-                   // TODO() NAVIGATE
+                    val intent = Intent(this, ThirdActivity::class.java)
+                    startActivity(intent)
                 }
 
                 LoginStatus.LoginError -> MaterialAlertDialogBuilder(this)
@@ -42,13 +43,5 @@ class MainActivity : AppCompatActivity() {
         login_button.setOnClickListener {
             mainViewModule.onClickedLogin(login_edit.text.toString().trim(), password_edit.text.toString())
         }
-
-
-
     }
-
-
-
-
-
 }

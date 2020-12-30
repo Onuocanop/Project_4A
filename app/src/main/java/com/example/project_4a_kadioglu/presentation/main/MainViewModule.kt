@@ -18,18 +18,16 @@ class MainViewModule(
     val loginLiveData: MutableLiveData<LoginStatus> = MutableLiveData()
 
 
-    fun onClickedLogin(emailUser: String, password: String) {
-        viewModelScope.launch(Dispatchers.IO){
+    fun onClickedLogin(emailUser: String, password: String) { viewModelScope.launch(Dispatchers.IO){
         val user = getUserUseCase.invoke(emailUser, password)
-      //      createUserUseCase.invoke(User("test"))
-       //   val user =  getUserUseCase.invoke("test")
-      val loginStatus = if(user != null)
-       {
+        val loginStatus = if(user != null)
+        {
            LoginStatus.LoginSuccess(user.email, user.password)
-       }
-        else{
+        }
+        else
+        {
           LoginStatus.LoginError
-      }
+        }
             withContext(Dispatchers.Main)
             {
                 loginLiveData.value = loginStatus
