@@ -27,9 +27,14 @@ And I made something clearly not 100% finished but modifiable that it can give a
 
 ### This is the screen when we press the app icon
 
-https://prnt.sc/wd5mma
 
-It shows us a login page (here with a name and a password because I entered it)
+![](Screenshot_7.png)
+
+It shows us the login page 
+
+### This is the screen when we enter a wrong login
+
+![](Screenshot_8.png)
 
 ### This is when we press the create button
 
