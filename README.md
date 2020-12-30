@@ -29,15 +29,16 @@ And I made something clearly not 100% finished but modifiable that it can give a
 
 https://prnt.sc/wd5mma
 
+It shows us a login page (here with a name and a password because I entered it)
 
-It shows us how a list full of pokemons
-
-### This is when we press one of the elements
+### This is when we press the create button
 
 https://prnt.sc/wd5mzh
 
-https://prnt.sc/wd5mma
+it shows us a screen that we need to enter our credentials to create an account
+
+### After we enter our credentials in our login segment we can see the following
 
 https://prnt.sc/wd5mex
 
-It shows us the detail of the pokemon here it's name
+It shows us the detail of the pokemon here it's name and it's picture
