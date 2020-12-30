@@ -56,9 +56,8 @@ It shows us the detail of the pokemon here it's name and it's picture
 ### And when we enter our credentials in the login screeen we open the database
 
 ![](Screenshot_12.png)
-![](Screenshot_13.png)
+![](Screenshot_13.png)\
 
-\
 
 ## PS
 
