@@ -78,7 +78,7 @@ It shows us the detail of the pokemon here it's name and it's picture
 
 ## PS
 the pokemon database was made with the help of the videos of EDMT Dev.<br />
-Link to the video the helped me :<br />
+Link to the video that helped me :<br />
 https://www.youtube.com/watch?v=WDKoFZNLEKg
 
 
